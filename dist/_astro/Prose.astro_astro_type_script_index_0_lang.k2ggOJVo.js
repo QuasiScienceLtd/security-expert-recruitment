@@ -1,0 +1,1 @@
+import{n as e,t}from"./scroll-boxes.ZvBhWLkp.js";var n=`data-table-scroll`;t(document.querySelectorAll(`.prose`),t=>{e(t.querySelectorAll(`[${n}]`),t.dataset.tableScrollName),e(t.querySelectorAll(`pre`))});

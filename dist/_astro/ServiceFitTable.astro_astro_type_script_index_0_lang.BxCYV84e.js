@@ -1,0 +1,1 @@
+import{n as e,t}from"./scroll-boxes.ZvBhWLkp.js";t(document.querySelectorAll(`[data-scroll-box]`),t=>e([t]));

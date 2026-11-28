@@ -1,0 +1,1 @@
+function e(e,t){for(let n of e){let e=n.scrollWidth>n.clientWidth;e?n.tabIndex=0:n.removeAttribute(`tabindex`),t!==void 0&&(e?(n.setAttribute(`role`,`region`),n.setAttribute(`aria-label`,t)):(n.removeAttribute(`role`),n.removeAttribute(`aria-label`)))}}function t(e,t){let n=new ResizeObserver(e=>{for(let{target:n}of e)t(n)});for(let t of e)n.observe(t)}export{e as n,t};
